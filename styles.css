@@ -23,7 +23,8 @@ header {
 }
 
 .chamada-texto {
-    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -65,7 +66,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
-    border-top: solid 2px rgb(255, 0, 0);
+    border-top: solid 2px rgb(15, 4, 4);
 }
 
 .categoria-videos2 {
@@ -86,4 +87,39 @@ p {
 .categoria2 h2 {
     color: rgb(255, 0, 0);
     margin-top: 50px;
+}
+
+.categoria-final {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    border-top: solid 2px rgb(255, 0, 0)
+}
+
+.categoria-final h2 {
+    color: rgb(255, 0, 0);
+    margin-top: 50px;
+}
+
+.Contato {
+    color: rgb(255, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    border-top: solid 2px rgb(255, 0, 0);
+}
+
+.img-ctt {
+    display: flex;
+    overflow-y: auto;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.img-ctt img {
+    height: 100px;
+}
+
+.img-ctt2 img {
+    height: 60px;
 }
